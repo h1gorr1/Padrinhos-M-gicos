@@ -1,2 +1,2 @@
-# Padrinhos-M-gicos
+# Padrinhos-Magicos
 tv globinho
