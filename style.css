@@ -94,3 +94,46 @@ margin-left: 50px;
     margin-bottom: -2rem;
     color: #663aef;
 }
+
+#container p{
+    margin-bottom:2.4rem;
+text-align: justify;
+
+}
+
+#container button{
+    padding: 15px;
+    border-radius: 3rem;
+    width: 12rem;
+    margin-bottom: 50px;
+    border-color: rgb(149,0,255);
+cursor: pointer;
+color: white;
+}
+
+#container button:hover{
+    color: white;
+    border-color: white;
+    background-color: rgb(149,0,255);
+    transition: 0.8s;
+}
+
+.line{
+    width: 70%;
+    margin-left: 2.5rem auto;
+}
+
+#container img{
+    width: 80%;
+    margin-left: 50px;
+}
+
+#container-cofre{
+    background-position: center;
+    padding: 10rem;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+background: rgb(149,0,255);
+background: linear-gradient(180deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(255,1,215,1) 35%, rgba(7,233,18,1) 100%);
+}
