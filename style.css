@@ -3,6 +3,7 @@
     margin: 0;
     font-family: fantasy;
     list-style: none;
+    text-decoration: none;
 }
 #cabecalho{
     display: flex;
@@ -68,6 +69,22 @@ display: flex;
 justify-content: space-around;
 }
 
+#app div button{
+    padding: 15px;
+    border-radius: 3rem;
+    width: 12rem;
+    margin-bottom: 50px;
+    border-color: rgb(149,0,255);
+cursor: pointer;
+color: white;
+}
+
+#app div button:hover{
+    color: white;
+    border-color: white;
+    background-color: rgb(149,0,255);
+    transition: 0.8s;
+}
 #app div p{
     font-size: 2.8em;
     margin-bottom: 20px;
@@ -90,15 +107,16 @@ margin-left: 50px;
 #container h2{
     font-size: 40px;
     text-align: center;
+    color: rgba(0, 0, 255, 0.699);
     margin-top: -20rem;
-    margin-bottom: -2rem;
-    color: #663aef;
+    margin-bottom: 2rem;
 }
 
 #container p{
-    margin-bottom:2.4rem;
-text-align: justify;
-
+    font-size: 1.4rem;
+    color: rgb(34, 34, 74,);
+    margin-bottom: 3.0rem;
+    text-align: justify;
 }
 
 #container button{
@@ -136,6 +154,7 @@ justify-content: space-evenly;
 align-items: center;
 background: rgb(149,0,255);
 background: linear-gradient(180deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(255,1,215,1) 35%, rgba(7,233,18,1) 100%);
+ background-attachment: fixed;
 }
 
 #container-cofre h2{
@@ -149,6 +168,33 @@ background: linear-gradient(180deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(
     font-size: 18px;
     text-align: center;
 margin-top: 2rem;
-
-
 }
+
+#footer{
+    background-color: rgb(26, 25, 25);
+    padding: 5rem;
+    text-align: center;
+    }
+    
+    #footer img{
+       width: 18rem;
+    }
+    
+    #footer div{
+        display: flex;
+        padding: 1rem;
+        color: white;
+        justify-content: space-between;
+        margin-top: 2rem;
+        align-items: center;
+    }
+    
+    #footer a{
+        color: white;
+        text-decoration: none;
+    }
+    
+    #footer a:hover {
+        color: purple;
+        transition: 0.6s;
+    }
