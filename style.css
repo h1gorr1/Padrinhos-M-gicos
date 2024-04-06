@@ -7,17 +7,25 @@
 }
 #cabecalho{
     display: flex;
-padding: 10vh;
+padding: 8vh;
 background-color: black;
 
 flex-wrap: wrap;
 }
 
 #cabecalho li{
-    justify-content: end;
+    justify-content:space-between;
     display: flex;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 1150px;
+    margin-top: 2.0rem;
+    
+}
+
+#img cabecalho{
+    width: 50%;
+    margin-left: 0;
+    height: 30%;
 }
 
 #cabecalho li a{
@@ -26,13 +34,13 @@ flex-wrap: wrap;
     text-decoration: none;
 }
 
-cabecalho li a:hover {
-    color:rgb(149,0,255);
+#cabecalho li a:hover {
+    color:rgba(149, 0, 255, 0.692);
     transition: 0.8s;
 }
 
 #sessão{
-    padding: 15rem;
+    padding: 14rem;
     background: rgb(149,0,255);
 background: linear-gradient(0deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(255,1,215,1) 35%, rgba(7,233,18,1) 100%);
 }
@@ -40,11 +48,12 @@ background: linear-gradient(0deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(25
 #sessão h2{
     font-size: 3rem;
     color: rgba(0, 0, 0, 0.911);
+    
 }
 
 #sessão p{
     font-size: 2.3em;
-    margin: 20 px 0;
+    margin: 20px 0
 }
 
 #sessão button{
@@ -53,14 +62,18 @@ background: linear-gradient(0deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(25
     border-color:rgb(149,0,255);
     width: 20em;
     cursor: pointer;
+    color: white;
+    margin-top: 25px;
 }
 
 #sessão button:hover{
-color:white;
+color:rgb(255, 255, 255);
 border-color: white;
-background-color: rgb(149,0,255);
+background-color: rgba(149, 0, 255, 0.473);
 transition: 0.8s;
 }
+
+
 
 #app{
 padding: 15rem;
@@ -107,7 +120,7 @@ margin-left: 50px;
 #container h2{
     font-size: 40px;
     text-align: center;
-    color: rgba(0, 0, 255, 0.699);
+    color: rgb(149,0,255);
     margin-top: -20rem;
     margin-bottom: 2rem;
 }
@@ -124,9 +137,10 @@ margin-left: 50px;
     border-radius: 3rem;
     width: 12rem;
     margin-bottom: 50px;
-    border-color: rgb(149,0,255);
+    border-color: rgba(149, 0, 255, 0.192);
 cursor: pointer;
 color: white;
+margin-top: 1.0rem;
 }
 
 #container button:hover{
@@ -138,12 +152,16 @@ color: white;
 
 .line{
     width: 70%;
-    margin-left: 2.5rem auto;
+    margin-left: 3rem auto;
+    margin-bottom: 5rem auto;
+    margin-top: 4rem auto;
+   
 }
 
 #container img{
     width: 80%;
     margin-left: 50px;
+    margin-top: 2.3rem;
 }
 
 #container-cofre{
@@ -167,7 +185,7 @@ background: linear-gradient(180deg, rgba(149,0,255,0.9780287114845938) 0%, rgba(
     color: white;
     font-size: 18px;
     text-align: center;
-margin-top: 2rem;
+
 }
 
 #footer{
